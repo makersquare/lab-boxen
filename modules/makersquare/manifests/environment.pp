@@ -29,7 +29,8 @@ class makersquare::environment {
 
   package {
     [
-      'wget'
+      'wget',
+      'rbenv-gemset'
     ]:
   }
 }
