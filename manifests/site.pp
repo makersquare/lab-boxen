@@ -56,7 +56,7 @@ node default {
   include nginx
 
   # include custom packages for MakerSquare lab machines
-  include makersquare
+  include makersquare::environment
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
