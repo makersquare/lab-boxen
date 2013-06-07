@@ -25,5 +25,5 @@ class makersquare::environment {
     version => '2.0.0'
   }
 
-  postgresql::db { 'mydb': }
+  include postgresql
 }
