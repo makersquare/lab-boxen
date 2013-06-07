@@ -26,4 +26,10 @@ class makersquare::environment {
   }
 
   include postgresql
+
+  package {
+    [
+      'wget'
+    ]:
+  }
 }
