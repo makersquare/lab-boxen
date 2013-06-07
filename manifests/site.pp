@@ -59,7 +59,7 @@ node default {
   include makersquare::environment
 
   # node versions
-  include nodejs::v0_10
+  nodejs { 'v0.10.5': }
 
   # default ruby versions
   include ruby::2_0_0
