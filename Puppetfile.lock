@@ -99,6 +99,11 @@ GITHUBTARBALL
     ruby (4.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sizeup
+  specs:
+    sizeup (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sublime_text_2
   specs:
     sublime_text_2 (1.1.1)
@@ -150,6 +155,7 @@ DEPENDENCIES
   postgresql (= 1.0.1)
   repository (= 2.2.0)
   ruby (= 4.1.0)
+  sizeup (= 1.0.0)
   stdlib (= 4.0.2)
   sublime_text_2 (= 1.1.1)
   sudo (= 1.0.0)
