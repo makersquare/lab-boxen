@@ -58,9 +58,6 @@ node default {
   # include custom packages for MakerSquare lab machines
   include makersquare::environment
 
-  # node versions
-  nodejs { 'v0.10.5': }
-
   # default ruby versions
   include ruby::2_0_0
 
