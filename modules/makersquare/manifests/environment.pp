@@ -1,5 +1,5 @@
 class makersquare::environment {
-  include github::apps::mac
+  include github_for_mac
 
   include stdlib
 
