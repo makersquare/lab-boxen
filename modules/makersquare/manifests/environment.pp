@@ -3,10 +3,6 @@ class makersquare::environment {
 
   include stdlib
 
-  # Switch to postgres
-  include mysql
-  mysql::db { 'mydb': }
-
   include alfred
 
   include iterm2::stable
@@ -29,5 +25,7 @@ class makersquare::environment {
 
   class { 'ruby::global':
     version => '2.0.0'
-  }  
+  }
+
+  postgresql::db { 'mydb': }
 }
