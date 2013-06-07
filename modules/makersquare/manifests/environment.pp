@@ -4,6 +4,7 @@ class makersquare::environment {
   include stdlib
 
   include alfred
+  include sizeup
 
   include iterm2::stable
   
