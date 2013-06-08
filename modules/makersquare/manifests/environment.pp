@@ -17,8 +17,6 @@ class makersquare::environment {
   include mou
 
   include chrome
-  include hipchat
-
   include dropbox
 
   class { 'ruby::global':
