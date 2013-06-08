@@ -30,6 +30,7 @@ class makersquare::environment {
   }
 
   include postgresql
+  include redis
 
   package {
     [
