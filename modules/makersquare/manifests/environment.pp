@@ -33,7 +33,7 @@ class makersquare::environment {
   package {
     [
       'wget',
-      'rbenv-gemset'
+      'mpssh'
     ]:
   }
 }
