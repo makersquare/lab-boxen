@@ -23,6 +23,7 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
 
 #### From the admin account
 
+* Remove the % from in front of admin line in `sudo visudo`
 * brew uninstall rbenv-gemset
 * echo 'source /opt/boxen/env.sh' >> ~/.zshrc
 * sudo chown -R student:staff /opt/boxen
