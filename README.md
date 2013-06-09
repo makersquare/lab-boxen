@@ -69,7 +69,7 @@ cp /Volumes/KINGSTON/id_dsa ~/.ssh/
 * Change Alfred shortcut to command-space
   * change alfred theme to dark, hide hat
 * Ensure SizeUp boots on load
-* Add Chrome, Hipchat, Mou, SublimeTExt, iTerm to Dock
+* Add Chrome, Mou, SublimeTExt, iTerm to Dock
 * Configure Dropbox
 * Set up automatic updates for Chrome
   * also sign in to a Chrome account so we can sync bookmarks/apps
