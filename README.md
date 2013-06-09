@@ -23,32 +23,18 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
 
 #### From the admin account
 
+* brew uninstall rbenv-gemset
 * echo 'source /opt/boxen/env.sh' >> ~/.zshrc
 * sudo chown -R student:staff /opt/boxen
+* Install keys:
+
+```
+mkdir ~/.ssh
+cp /Volumes/KINGSTON/id_dsa.pub ~/.ssh/
+cp /Volumes/KINGSTON/id_dsa ~/.ssh/
+```
+
 * Set Machine Name
-* replace the motd with our custom one (below)
-
-```
-
-888b     d888     d888     888    d8P  8888888888 8888888b.  
-8888b   d8888    d88888    888   d8P   888        888   Y88b 
-88888b.d88888   d88P 888   888  d8P    888        888    888 
-888Y88888P888  d88P   888  888d88K     8888888    888   d88P 
-888 Y888P 888 d88P     888 8888888b    888        8888888P"  
-888  Y8P  888 d88P88888888 888  Y88b   888        888 T88b   
-888   "   888 d888     888 888   Y88b  888        888  T88b  
-888       888 d88P     888 888    Y88b 8888888888 888   T88b 
- .oOOOo.   .oOOOo.   O        o    Oo    `OooOOo.  o.OOoOoo 
- o     o  .O     o.  o        O   o  O    o     `o  O       
- O.       o       O  O        o  O    o   O      O  o       
-  `OOoo.  O       o  o        o oOooOoOo  o     .O  ooOO    
-       `O o       O  o        O o      O  OOooOO'   O       
-        o O    Oo o  O        O O      o  o    o    o       
- O.    .O `o     O'  `o      O  o      O  O     O   O       
-  `oooO'   `OoooO Oo  `OooooO'  O.     O  O      o ooOooOoO 
-                                                          
-```
-
 * Create a non-admin account 'student/MakerSquare Student' with password 'makersquare'
   * Enable automatic login for this account
   * Set the account avatar to the MakerSquare GitHub org logo
@@ -56,7 +42,11 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
 
 #### From the student acount
 
+* Install oh-my-zsh
+  * need [Monaco power line, 14pt](https://github.com/mneorr/powerline-fonts/raw/bfcb152306902c09b62be6e4a5eec7763e46d62d/Monaco/Monaco%20for%20Powerline.otf)
+  * change iterm2 theme to pastel dark
 * curl -s https://gist.github.com/techpeace/c93f9fb4b7483f5f8c41/raw/post-boxen.sh > /tmp/post-install-boxen; bash /tmp/post-install-boxen
+* curl -o /etc/motd https://gist.github.com/techpeace/5745650/raw/a9c4ee12cba0d2f61f795dc4aa7344e451a54753/motd
 * Add home and code folders to Finder sidebar
 * Enable screen inversion hotkey
   * settings -> keyboard -> keyboard shortcuts -> accessibility -> invert colors
@@ -66,17 +56,16 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
 * Enable ctrl-zoom
   * settings -> accessibility -> zoom -> crl-zoom
 * Enable Remote Management
+  * settings -> sharing
   * Only for Admin account
   * Enable all permissions
+* Enable Remote Login
+  * settings -> sharing
 * Disable spotlight shortcut
 * Change Alfred shortcut to command-space
   * change alfred theme to dark, hide hat
 * Ensure SizeUp boots on load
 * Add Chrome, Hipchat, Mou, SublimeTExt, iTerm to Dock
-* Install oh-my-zsh
-  * Install our custom .zshrc (above)
-    * need [Monaco power line, 14pt](https://github.com/mneorr/powerline-fonts/raw/bfcb152306902c09b62be6e4a5eec7763e46d62d/Monaco/Monaco%20for%20Powerline.otf)
-    * change iterm2 theme to pastel dark
 * Configure Dropbox
 * Set up automatic updates for Chrome
   * also sign in to a Chrome account so we can sync bookmarks/apps
