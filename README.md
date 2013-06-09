@@ -32,6 +32,7 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
 ```
 mkdir ~/.ssh
 cp /Volumes/KINGSTON/id_dsa.pub ~/.ssh/
+cp /Volumes/KINGSTON/id_dsa.pub ~/.ssh/authorized_keys
 cp /Volumes/KINGSTON/id_dsa ~/.ssh/
 ```
 
