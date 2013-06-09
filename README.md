@@ -27,6 +27,8 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
 * brew uninstall rbenv-gemset
 * echo 'source /opt/boxen/env.sh' >> ~/.zshrc
 * sudo chown -R student:staff /opt/boxen
+* Enable Remote Login
+  * settings -> sharing
 * Install keys:
 
 ```
