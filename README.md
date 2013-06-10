@@ -28,7 +28,6 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
   * `curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh`
 * **Figure out how to enable passwordless sudo**
 * `brew uninstall rbenv-gemset`
-* `sudo chown -R student:staff /opt/boxen`
 * Enable Remote Login
   * settings -> sharing
 * Install keys:
@@ -50,6 +49,7 @@ chmod 600 $HOME/.ssh/id_dsa*
   * scutil --set LocalHostName "challenge-1"
 * Create a non-admin account 'student/MakerSquare Student' with password 'makersquare'
   * Set the account avatar to the MakerSquare GitHub org logo
+* `sudo chown -R student:staff /opt/boxen`
 * Enable guest account
 
 #### From the student acount
