@@ -44,7 +44,6 @@ cp /Volumes/KINGSTON/id_dsa ~/.ssh/
   * scutil --set HostName "challenge-1"
   * scutil --set LocalHostName "challenge-1"
 * Create a non-admin account 'student/MakerSquare Student' with password 'makersquare'
-  * Enable automatic login for this account
   * Set the account avatar to the MakerSquare GitHub org logo
 * Enable guest account
 
