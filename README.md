@@ -66,7 +66,7 @@ chmod 600 $HOME/.ssh/id_dsa*
 * Add home and code folders to Finder sidebar
 * Enable screen inversion hotkey
   * settings -> keyboard -> keyboard shortcuts -> accessibility -> invert colors
-* Set computer to sleep after 1 hour
+* Set computer to sleep after 1 hour (except for challenge boxen)
   * settings -> energy saver
 * Enable Dvorak
   * settings -> language -> input sources -> Dvorak
