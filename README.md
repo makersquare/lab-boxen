@@ -24,6 +24,8 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
 #### From the admin account
 
 * `echo 'source /opt/boxen/env.sh' >> ~/.zshrc`
+* Install oh-my-zsh
+  * curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 * Remove the % from in front of admin line in `sudo visudo`
 * `brew uninstall rbenv-gemset`
 * `sudo chown -R student:staff /opt/boxen`
