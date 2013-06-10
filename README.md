@@ -36,6 +36,8 @@ mkdir ~/.ssh
 cp /Volumes/KINGSTON/id_dsa.pub ~/.ssh/
 cp /Volumes/KINGSTON/id_dsa.pub ~/.ssh/authorized_keys
 cp /Volumes/KINGSTON/id_dsa ~/.ssh/
+chmod 700 $HOME/.ssh
+chmod 600 $HOME/.ssh/id_dsa*
 ```
 
 * Update iTerm2
