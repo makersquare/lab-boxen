@@ -58,6 +58,7 @@ chmod 600 $HOME/.ssh/id_dsa*
   * [Menlo for powerline](https://gist.github.com/sjl/1627888) - make it 15pt
   * change iterm2 theme to pastel dark
   * `curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh`
+* `source /opt/boxen/env.sh`
 * `curl -s https://gist.github.com/techpeace/c93f9fb4b7483f5f8c41/raw/post-boxen.sh > /tmp/post-install-boxen; bash /tmp/post-install-boxen`
 * Add home and code folders to Finder sidebar
 * Enable screen inversion hotkey
