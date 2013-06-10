@@ -39,7 +39,7 @@ cp /Volumes/KINGSTON/id_dsa ~/.ssh/
 ```
 
 * Update iTerm2
-* curl -o /etc/motd https://gist.github.com/techpeace/5745650/raw/a9c4ee12cba0d2f61f795dc4aa7344e451a54753/motd
+* sudo curl -o /etc/motd https://gist.github.com/techpeace/5745650/raw/a9c4ee12cba0d2f61f795dc4aa7344e451a54753/motd
 * Set Machine Name
   * scutil --set ComputerName "challenge-1"
   * scutil --set HostName "challenge-1"
