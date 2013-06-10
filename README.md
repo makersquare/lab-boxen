@@ -82,6 +82,8 @@ chmod 600 $HOME/.ssh/id_dsa*
 * Change Alfred shortcut to command-space
   * change alfred theme to dark, hide hat
 * Ensure SizeUp boots on load
+  * Drop send up/send down shortcuts
+  * Make up-arrow fullscreen
 * Add Chrome, Mou, SublimeTExt, iTerm to Dock
 * Configure Dropbox
 * Set up automatic updates for Chrome
