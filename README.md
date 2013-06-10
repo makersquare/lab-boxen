@@ -77,6 +77,8 @@ cp /Volumes/KINGSTON/id_dsa ~/.ssh/
 * Configure Dropbox
 * Set up automatic updates for Chrome
   * also sign in to a Chrome account so we can sync bookmarks/apps
+* `bundle config --global path vendor/bundle` - again, don't know why
+* try out reddit-on-rails
 * **Log out of GitHub**
 * **Switch to qwerty**
 
