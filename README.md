@@ -67,6 +67,8 @@ cp /Volumes/KINGSTON/id_dsa ~/.ssh/
   * settings -> sharing
   * Only for Admin account
   * Enable all permissions
+* Enable assistive devices
+  * settings -> accessibility
 * Enable Remote Login
   * settings -> sharing
 * Disable spotlight shortcut
