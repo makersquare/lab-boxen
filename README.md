@@ -39,6 +39,9 @@ cp /Volumes/KINGSTON/id_dsa ~/.ssh/
 ```
 
 * Set Machine Name
+  * scutil --set ComputerName "challenge-1"
+  * scutil --set HostName "challenge-1"
+  * scutil --set LocalHostName "challenge-1"
 * Create a non-admin account 'student/MakerSquare Student' with password 'makersquare'
   * Enable automatic login for this account
   * Set the account avatar to the MakerSquare GitHub org logo
@@ -48,6 +51,7 @@ cp /Volumes/KINGSTON/id_dsa ~/.ssh/
 
 * Install oh-my-zsh
   * need [Monaco power line, 14pt](https://github.com/mneorr/powerline-fonts/raw/bfcb152306902c09b62be6e4a5eec7763e46d62d/Monaco/Monaco%20for%20Powerline.otf)
+  * if that doesn't work on logout/login, try [this](https://github.com/fromonesrc/monaco-powerline-vim/blob/master/Monaco-Powerline.otf)
   * change iterm2 theme to pastel dark
 * curl -s https://gist.github.com/techpeace/c93f9fb4b7483f5f8c41/raw/post-boxen.sh > /tmp/post-install-boxen; bash /tmp/post-install-boxen
 * curl -o /etc/motd https://gist.github.com/techpeace/5745650/raw/a9c4ee12cba0d2f61f795dc4aa7344e451a54753/motd
