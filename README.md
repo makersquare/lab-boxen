@@ -65,7 +65,6 @@ cp /Volumes/KINGSTON/id_dsa ~/.ssh/
   * settings -> accessibility -> zoom -> crl-zoom
 * Enable Remote Management
   * settings -> sharing
-  * Only for Admin account
   * Enable all permissions
 * Enable assistive devices
   * settings -> accessibility
