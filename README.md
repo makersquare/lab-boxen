@@ -25,7 +25,7 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
 
 * `echo 'source /opt/boxen/env.sh' >> ~/.zshrc`
 * Install oh-my-zsh
-  * curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+  * `curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh`
 * Remove the % from in front of admin line in `sudo visudo`
 * `brew uninstall rbenv-gemset`
 * `sudo chown -R student:staff /opt/boxen`
@@ -57,8 +57,8 @@ chmod 600 $HOME/.ssh/id_dsa*
 * Install oh-my-zsh
   * [Menlo for powerline](https://gist.github.com/sjl/1627888) - make it 15pt
   * change iterm2 theme to pastel dark
-  * curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
-* curl -s https://gist.github.com/techpeace/c93f9fb4b7483f5f8c41/raw/post-boxen.sh > /tmp/post-install-boxen; bash /tmp/post-install-boxen
+  * `curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh`
+* `curl -s https://gist.github.com/techpeace/c93f9fb4b7483f5f8c41/raw/post-boxen.sh > /tmp/post-install-boxen; bash /tmp/post-install-boxen`
 * Add home and code folders to Finder sidebar
 * Enable screen inversion hotkey
   * settings -> keyboard -> keyboard shortcuts -> accessibility -> invert colors
