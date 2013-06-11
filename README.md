@@ -51,6 +51,7 @@ chmod 600 $HOME/.ssh/id_dsa*
 * Create a non-admin account 'student/MakerSquare Student' with password 'makersquare'
   * Set the account avatar to the MakerSquare GitHub org logo
 * `sudo chown -R student:staff /opt/boxen`
+* `sudo visudo`, then add this: `admin ALL=(ALL) NOPASSWD: ALL`
 * Enable guest account
 
 #### From the student acount
