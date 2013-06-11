@@ -100,9 +100,7 @@ chmod 600 $HOME/.ssh/id_dsa*
 To run updates after changing this recipe, log in to the Admin account and run the following commands:
 
 ```console
-$ sudo chown -R admin:staff /opt/boxen
-$ boxen
-$ sudo chown -R student:staff /opt/boxen
+$ sudo chown -R admin:staff /opt/boxen; boxen; sudo chown -R student:staff /opt/boxen
 ```
 
 ## Troubleshooting
