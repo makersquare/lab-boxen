@@ -17,6 +17,7 @@ class makersquare::environment {
   include mou
 
   include chrome
+  include firefox
   include dropbox
 
   class { 'ruby::global':
