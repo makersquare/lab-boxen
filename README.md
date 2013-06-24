@@ -57,7 +57,7 @@ chmod 600 $HOME/.ssh/id_dsa*
 #### From the student acount
 
 * Install oh-my-zsh
-  * [Menlo for powerline] - set it to 15pt
+  * Install Menlo for powerline font - set it to 15pt
     * [regular](https://github.com/Lokaltog/powerline-fonts/raw/master/Menlo/Menlo%20Regular%20for%20Powerline.ttf)
     * [bold](https://github.com/Lokaltog/powerline-fonts/raw/master/Menlo/Menlo%20Bold%20for%20Powerline.ttf)
     * [italic](https://github.com/Lokaltog/powerline-fonts/raw/master/Menlo/Menlo%20Italic%20for%20Powerline.ttf)
