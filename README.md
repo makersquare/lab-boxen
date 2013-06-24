@@ -94,7 +94,7 @@ chmod 600 $HOME/.ssh/id_dsa*
 * Add Chrome, Mou, SublimeTExt, iTerm to Dock
 * Configure Dropbox
 * Sync SublimeText settings via Chrome
-  * `rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2`
+  * `rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages; rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages; rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages;`
   * `ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2 ~/Library/Application\ Support/Sublime\ Text\ 2`
 * Set up automatic updates for Chrome
   * also sign in to a Chrome account so we can sync bookmarks/apps
