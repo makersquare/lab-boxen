@@ -61,7 +61,7 @@ chmod 600 $HOME/.ssh/id_dsa*
     * [regular](https://github.com/Lokaltog/powerline-fonts/raw/master/Menlo/Menlo%20Regular%20for%20Powerline.ttf)
     * [bold](https://github.com/Lokaltog/powerline-fonts/raw/master/Menlo/Menlo%20Bold%20for%20Powerline.ttf)
     * [italic](https://github.com/Lokaltog/powerline-fonts/raw/master/Menlo/Menlo%20Italic%20for%20Powerline.ttf)
-    * [bold italic](https://github.com/Lokaltog/powerline-fonts/raw/master/Menlo/Menlo%20Regular%20for%20Powerline.ttf)
+    * [bold italic](https://github.com/Lokaltog/powerline-fonts/raw/master/Menlo/Menlo%20Bold%20Italic%20for%20Powerline.ttf)
   * change iterm2 theme to pastel dark
   * `curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh`
 * `source /opt/boxen/env.sh`
