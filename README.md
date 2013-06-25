@@ -95,7 +95,7 @@ chmod 600 $HOME/.ssh/id_dsa*
 * Configure Dropbox
 * Sync SublimeText settings via Chrome
   * `rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages; rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages; rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages;`
-  * `ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages; ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages; ln -s ~/Dropbox/Library/Application\ Support/Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Packages`
+  * `ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages; ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages; ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Packages`
 * Set up automatic updates for Chrome
   * also sign in to a Chrome account so we can sync bookmarks/apps
 * `bundle config --global path vendor/bundle` - again, don't know why
