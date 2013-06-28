@@ -67,7 +67,7 @@ chmod 600 $HOME/.ssh/id_dsa*
 * `source /opt/boxen/env.sh`
 * `curl -s https://gist.github.com/techpeace/c93f9fb4b7483f5f8c41/raw/post-boxen.sh > /tmp/post-install-boxen; bash /tmp/post-install-boxen`
 * `source /opt/boxen/env.sh`
-* `homesick symlink dotfiles`
+* `gem install homesick; homesick clone https://github.com/makersquare/dotfiles.git; homesick symlink dotfiles`
 * Add home and code folders to Finder sidebar
 * Enable screen inversion hotkey
   * settings -> keyboard -> keyboard shortcuts -> accessibility -> invert colors
