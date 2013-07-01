@@ -96,6 +96,8 @@ chmod 600 $HOME/.ssh/id_dsa*
 * Sync SublimeText settings via Chrome
   * `rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages; rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages; rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages;`
   * `ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages; ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages; ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Packages`
+* Set SublimeText as default editor:
+  * `export EDITOR='subl -w'`
 * Set up automatic updates for Chrome
   * also sign in to a Chrome account so we can sync bookmarks/apps
 * `bundle config --global path vendor/bundle` - again, don't know why
