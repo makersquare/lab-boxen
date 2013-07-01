@@ -93,6 +93,8 @@ chmod 600 $HOME/.ssh/id_dsa*
   * Make up-arrow fullscreen
 * Add Chrome, Mou, SublimeTExt, iTerm to Dock
 * Configure Dropbox
+* Add ssh keys from Dropbox
+  * `mkdir ~/.ssh; cp ~/Dropbox/System\ Files/id_rsa* ~/.ssh/; cp ~/Dropbox/System\ Files/authorized_keys ~/.ssh`
 * Sync SublimeText settings via Chrome
   * `rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages; rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages; rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages;`
   * `ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages; ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages; ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Packages`
