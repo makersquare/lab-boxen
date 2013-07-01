@@ -138,3 +138,5 @@ ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Package
 mkdir ~/.ssh; cp ~/Dropbox/System\ Files/id_rsa* ~/.ssh/; cp ~/Dropbox/System\ Files/authorized_keys ~/.ssh
 export EDITOR='subl -w'
 ```
+
+Then, `heroku auth:logout` and `heroku auth:login` again.
