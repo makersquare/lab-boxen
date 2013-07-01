@@ -120,3 +120,18 @@ $ sudo chown -R admin:staff /opt/boxen; boxen; sudo chown -R student:staff /opt/
 ### Oh god, git didn't work like we thought it would!
 
 Yeah, there was a chance this would happen. We just need to [disable keychain management](http://stackoverflow.com/questions/16052602/disable-git-credential-osxkeychain).
+
+## 7/1/2013 Upgrade steps
+
+```console
+homesick pull dotfiles
+```
+
+Open up SublimeText in a folder - if the sidebar (files and directories, left side) has a black background, SKIP THIS STEP:
+
+```console
+rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages; rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages; rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages;
+ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages; ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages; ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
+```
+
+
