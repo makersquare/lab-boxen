@@ -125,9 +125,10 @@ Yeah, there was a chance this would happen. We just need to [disable keychain ma
 
 ```console
 homesick pull dotfiles
+homesick symlink
 ```
 
-Open up SublimeText in a folder - if the sidebar (files and directories, left side) has a black background, SKIP THIS STEP:
+Open up SublimeText in a folder - if the sidebar (files and directories, left side) has a black background, **SKIP THIS STEP** or you'll wipe out our settings:
 
 ```console
 rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages; rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages; rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages;
