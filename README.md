@@ -139,3 +139,12 @@ ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Package
 mkdir ~/.ssh; cp ~/Dropbox/System\ Files/id_rsa* ~/.ssh/; cp ~/Dropbox/System\ Files/authorized_keys ~/.ssh
 export EDITOR='subl -w'
 ```
+
+## 7/3/2013 Upgrade steps
+
+```console
+rm -rf ~/.ssh
+ln -s ~/Dropbox/System\ Files/ssh ~/.ssh
+chmod 600 ~/.ssh/id_rsa
+chmod 600 ~/.ssh/id_rsa.pub
+```
