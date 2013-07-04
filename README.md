@@ -150,6 +150,7 @@ export EDITOR='subl -w'
 ## 7/3/2013 Upgrade steps
 
 ```console
+brew uninstall hub
 rm -rf ~/.ssh
 ln -s ~/Dropbox/System\ Files/ssh ~/.ssh
 chmod 600 ~/.ssh/id_rsa
