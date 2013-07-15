@@ -80,6 +80,7 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
   * Make up-arrow fullscreen
 * Add Chrome, Mou, SublimeTExt, iTerm to Dock
 * Configure Dropbox
+  * dropbox@themakersquare.com/workhardplayhard
 * Sync SSH keys via Dropbox
 
 ```console
