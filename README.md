@@ -27,21 +27,8 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
 * Install oh-my-zsh
   * `curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh`
 * `echo 'source /opt/boxen/env.sh' >> ~/.zshrc`
-* **Figure out how to enable passwordless sudo**
-* `brew uninstall rbenv-gemset`
 * Enable Remote Login
   * settings -> sharing
-* Install keys:
-
-```
-mkdir ~/.ssh
-cp /Volumes/KINGSTON/id_dsa.pub ~/.ssh/
-cp /Volumes/KINGSTON/id_dsa.pub ~/.ssh/authorized_keys
-cp /Volumes/KINGSTON/id_dsa ~/.ssh/
-chmod 700 $HOME/.ssh
-chmod 600 $HOME/.ssh/id_dsa*
-```
-
 * Update iTerm2
 * `sudo curl -o /etc/motd https://gist.github.com/techpeace/5745650/raw/a9c4ee12cba0d2f61f795dc4aa7344e451a54753/motd`
 * Set Machine Name
