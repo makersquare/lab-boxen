@@ -31,6 +31,7 @@ class makersquare::environment {
   package { 'boxen/brews/postgresql':
     ensure => 'absent'
   }
+  include postgresapp
 
   include redis
 
