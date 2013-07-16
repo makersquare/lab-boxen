@@ -116,7 +116,9 @@ $ sudo chown -R admin:staff /opt/boxen; boxen; sudo chown -R student:staff /opt/
 
 Yeah, there was a chance this would happen. We just need to [disable keychain management](http://stackoverflow.com/questions/16052602/disable-git-credential-osxkeychain).
 
-## 7/1/2013 Upgrade steps
+## Upgrades
+
+### 7/1/2013
 
 ```console
 homesick pull dotfiles
@@ -135,7 +137,7 @@ mkdir ~/.ssh; cp ~/Dropbox/System\ Files/id_rsa* ~/.ssh/; cp ~/Dropbox/System\ F
 export EDITOR='subl -w'
 ```
 
-## 7/3/2013 Upgrade steps
+### 7/3/2013
 
 ```console
 brew uninstall hub
@@ -145,7 +147,7 @@ chmod 600 ~/.ssh/id_rsa
 chmod 600 ~/.ssh/id_rsa.pub
 ```
 
-## 7/15/2013 Upgrade steps
+### 7/15/2013
 
 * Verify ssh is correctly linked.
 * Verify hub is uninstalled.
