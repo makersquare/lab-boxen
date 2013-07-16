@@ -150,3 +150,16 @@ chmod 600 ~/.ssh/id_rsa.pub
 * Verify ssh is correctly linked.
 * Verify hub is uninstalled.
 * Verify SublimeText is properly synced.
+
+From student account:
+
+```console
+homesick pull dotfiles
+homesick symlink dotfiles
+```
+
+From admin account:
+
+```console
+sudo chown -R admin:staff /opt/boxen; boxen; sudo chown -R student:staff /opt/boxen
+```
