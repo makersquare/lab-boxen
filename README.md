@@ -144,3 +144,9 @@ ln -s ~/Dropbox/System\ Files/ssh ~/.ssh
 chmod 600 ~/.ssh/id_rsa
 chmod 600 ~/.ssh/id_rsa.pub
 ```
+
+## 7/15/2013 Upgrade steps
+
+* Verify ssh is correctly linked.
+* Verify hub is uninstalled.
+* Verify SublimeText is properly synced.
