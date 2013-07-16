@@ -163,3 +163,5 @@ From admin account:
 ```console
 sudo chown -R admin:staff /opt/boxen; boxen; sudo chown -R student:staff /opt/boxen
 ```
+
+* Load postgress app and ensure it boots on startup.
