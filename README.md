@@ -95,6 +95,7 @@ chmod 600 ~/.ssh/id_rsa.pub
   * `ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages; ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Pristine\ Packages; ln -s ~/Dropbox/Library/Application\ Support/Sublime\ Text\ 2/Packages ~/Library/Application\ Support/Sublime\ Text\ 2/Packages`
 * Set SublimeText as default editor:
   * `export EDITOR='subl -w'`
+* `chmod go-w ~/Dropbox/bin`
 * Set up automatic updates for Chrome
   * also sign in to a Chrome account so we can sync bookmarks/apps
 * `bundle config --global path vendor/bundle` - again, don't know why
@@ -102,6 +103,8 @@ chmod 600 ~/.ssh/id_rsa.pub
 * Load postgress app and ensure it boots on startup.
 * Add the license key for Rubymine.
 * Install Dash from App store. Add to Dock (right of iTerm).
+* Link Dash settings:
+  * `rm -rf ~/Library/Application\ Support/Dash; ln -s ~/Dropbox/Library/Application\ Support/Dash ~/Library/Application\ Support/Dash`
 
 * **Log out of GitHub**
 * **Switch to qwerty**
@@ -155,7 +158,7 @@ chmod 600 ~/.ssh/id_rsa.pub
 
 * Verify ssh is correctly linked.
 * Verify hub is uninstalled.
-* Verify SublimeText is properly synced. Reinstall if necessary.
+* Verify SublimeText is properly synced. Reinstall (and resync) if necessary.
 
 **From student account:**
 
@@ -169,13 +172,21 @@ homesick symlink dotfiles
 * Upgrade iTerm2.
 * Run any App store upgrades.
 * Install Dash from App store. Add to Dock (right of iTerm).
+* Link Dash settings:
+  * `rm -rf ~/Library/Application\ Support/Dash; ln -s ~/Dropbox/Library/Application\ Support/Dash ~/Library/Application\ Support/Dash`
 * Ensure Ruby 2 is set as default rbenv version.
 * Ensure rails bin is still at 3.2.13.
+* Add the wallpaper image.
+* `chmod go-w ~/Dropbox/bin`
 
 **From admin account:**
 
 ```console
 sudo chown -R admin:staff /opt/boxen; boxen; sudo chown -R student:staff /opt/boxen
 ```
+
+**After all machines upgraded:**
+
+* Move the backup SublimeText settings into place.
 
 
