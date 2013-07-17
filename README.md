@@ -216,6 +216,23 @@ homesick symlink dotfiles
 * Ensure rails bin is still at 3.2.13.
 * Add the wallpaper image.
 * `chmod go-w ~/Dropbox/bin`
+* RubyMine setup:
+  * Install Java
+  * Install license
+  * Switch to Dark theme
+
+```text
+User Name: Maker Square
+
+===== LICENSE BEGIN =====
+582980-15072013
+000005Nf"t4YxDbHI3ZENc4LFpenB9
+49vdK981HDY"qVEgYKwF7Bl4i83nqW
+eLtwL7CYKzIYCcZFG!XCqR52SjJD73
+===== LICENSE END =====
+```
+
+
 
 **From admin account:**
 
