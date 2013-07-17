@@ -103,9 +103,19 @@ chmod 600 ~/.ssh/id_rsa.pub
 * Load postgress app and ensure it boots on startup.
 * Add the license key for Rubymine.
 * Install Dash from App store. Add to Dock (right of iTerm).
-* Link Dash settings:
-  * `rm -rf ~/Library/Application\ Support/Dash; ln -s ~/Dropbox/Library/Application\ Support/Dash ~/Library/Application\ Support/Dash`
-
+* Install Docsets (in this order):
+  * Ruby 2
+  * RoR 3
+  * HTML
+  * CSS
+  * jQuery
+  * jQuery UI
+  * Sass
+  * Compass
+  * Bootstrap
+  * Foundation
+  * Man pages
+  * PostgreSQL
 * **Log out of GitHub**
 * **Switch to qwerty**
 
@@ -172,8 +182,19 @@ homesick symlink dotfiles
 * Upgrade iTerm2.
 * Run any App store upgrades.
 * Install Dash from App store. Add to Dock (right of iTerm).
-* Link Dash settings:
-  * `rm -rf ~/Library/Application\ Support/Dash; ln -s ~/Dropbox/Library/Application\ Support/Dash ~/Library/Application\ Support/Dash`
+* Install Docsets (in this order):
+  * Ruby 2
+  * RoR 3
+  * HTML
+  * CSS
+  * jQuery
+  * jQuery UI
+  * Sass
+  * Compass
+  * Bootstrap
+  * Foundation
+  * Man pages
+  * PostgreSQL
 * Ensure Ruby 2 is set as default rbenv version.
 * Ensure rails bin is still at 3.2.13.
 * Add the wallpaper image.
