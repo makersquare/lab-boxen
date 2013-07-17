@@ -35,7 +35,9 @@ class makersquare::environment {
   include postgresapp
 
   include redis
+
   include imagemagick
+  include xquartz
 
   package {
     [
