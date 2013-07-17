@@ -116,6 +116,22 @@ chmod 600 ~/.ssh/id_rsa.pub
   * Foundation
   * Man pages
   * PostgreSQL
+* RubyMine setup:
+  * Install Java
+  * Install license
+  * Switch to Dark theme
+
+```text
+User Name: Maker Square
+
+===== LICENSE BEGIN =====
+582980-15072013
+000005Nf"t4YxDbHI3ZENc4LFpenB9
+49vdK981HDY"qVEgYKwF7Bl4i83nqW
+eLtwL7CYKzIYCcZFG!XCqR52SjJD73
+===== LICENSE END =====
+```
+
 * **Log out of GitHub**
 * **Switch to qwerty**
 
@@ -210,5 +226,3 @@ sudo chown -R admin:staff /opt/boxen; boxen; sudo chown -R student:staff /opt/bo
 **After all machines upgraded:**
 
 * Move the backup SublimeText settings into place.
-
-
