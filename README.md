@@ -181,8 +181,9 @@ homesick symlink dotfiles
 * Add the license key for Rubymine.
 * Upgrade iTerm2.
 * Run any App store upgrades.
-* Install Dash from App store. Add to Dock (right of iTerm).
-* Install Docsets (in this order):
+* Install Dash from App store
+  * Add Alfred workflow
+* Install Dash Docsets (in this order):
   * Ruby 2
   * RoR 3
   * HTML
