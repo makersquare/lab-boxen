@@ -120,6 +120,8 @@ chmod 600 ~/.ssh/id_rsa.pub
   * Install Java
   * Install license
   * Switch to Dark theme
+  * Add to Dock (to the right of SublimeText)
+  * Upgrade to new version
 
 ```text
 User Name: Maker Square
@@ -186,6 +188,12 @@ chmod 600 ~/.ssh/id_rsa.pub
 * Verify hub is uninstalled.
 * Verify SublimeText is properly synced. Reinstall (and resync) if necessary.
 
+**From admin account:**
+
+```console
+sudo chown -R admin:staff /opt/boxen; boxen; sudo chown -R student:staff /opt/boxen
+```
+
 **From student account:**
 
 ```console
@@ -198,7 +206,6 @@ homesick symlink dotfiles
 * Upgrade iTerm2.
 * Run any App store upgrades.
 * Install Dash from App store
-  * Add Alfred workflow
 * Install Dash Docsets (in this order):
   * Ruby 2
   * RoR 3
@@ -220,6 +227,8 @@ homesick symlink dotfiles
   * Install Java
   * Install license
   * Switch to Dark theme
+  * Add to Dock (to the right of SublimeText)
+  * Upgrade to new version
 
 ```text
 User Name: Maker Square
@@ -230,14 +239,6 @@ User Name: Maker Square
 49vdK981HDY"qVEgYKwF7Bl4i83nqW
 eLtwL7CYKzIYCcZFG!XCqR52SjJD73
 ===== LICENSE END =====
-```
-
-
-
-**From admin account:**
-
-```console
-sudo chown -R admin:staff /opt/boxen; boxen; sudo chown -R student:staff /opt/boxen
 ```
 
 **After all machines upgraded:**
