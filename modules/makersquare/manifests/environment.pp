@@ -14,6 +14,7 @@ class makersquare::environment {
   sublime_text_2::package { 'Emmet':
     source => 'sergeche/emmet-sublime'
   }
+  include rubymine
   include mou
 
   include chrome
@@ -34,6 +35,7 @@ class makersquare::environment {
   include postgresapp
 
   include redis
+  include imagemagick
 
   package {
     [

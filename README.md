@@ -99,6 +99,10 @@ chmod 600 ~/.ssh/id_rsa.pub
   * also sign in to a Chrome account so we can sync bookmarks/apps
 * `bundle config --global path vendor/bundle` - again, don't know why
 * try out reddit-on-rails
+* Load postgress app and ensure it boots on startup.
+* Add the license key for Rubymine.
+* Install Dash from App store. Add to Dock (right of iTerm).
+
 * **Log out of GitHub**
 * **Switch to qwerty**
 
@@ -151,19 +155,27 @@ chmod 600 ~/.ssh/id_rsa.pub
 
 * Verify ssh is correctly linked.
 * Verify hub is uninstalled.
-* Verify SublimeText is properly synced.
+* Verify SublimeText is properly synced. Reinstall if necessary.
 
-From student account:
+**From student account:**
 
 ```console
 homesick pull dotfiles
 homesick symlink dotfiles
 ```
 
-From admin account:
+* Load postgress app and ensure it boots on startup.
+* Add the license key for Rubymine.
+* Upgrade iTerm2.
+* Run any App store upgrades.
+* Install Dash from App store. Add to Dock (right of iTerm).
+* Ensure Ruby 2 is set as default rbenv version.
+* Ensure rails bin is still at 3.2.13.
+
+**From admin account:**
 
 ```console
 sudo chown -R admin:staff /opt/boxen; boxen; sudo chown -R student:staff /opt/boxen
 ```
 
-* Load postgress app and ensure it boots on startup.
+
