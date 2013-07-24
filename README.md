@@ -206,6 +206,8 @@ homesick symlink dotfiles
 * Upgrade iTerm2.
 * Run any App store upgrades.
 * Install Dash from App store
+  * Move into Dock (right of iTerm)
+  * Add `/opt/boxen/rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0` to paths for gems docset
 * Install Dash Docsets (in this order):
   * Ruby 2
   * RoR 3
