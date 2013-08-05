@@ -44,11 +44,7 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
 #### From the student acount
 
 * Install oh-my-zsh
-  * Install Menlo for powerline font - set it to 15pt
-    * [regular](https://github.com/Lokaltog/powerline-fonts/raw/master/Menlo/Menlo%20Regular%20for%20Powerline.ttf)
-    * [bold](https://github.com/Lokaltog/powerline-fonts/raw/master/Menlo/Menlo%20Bold%20for%20Powerline.ttf)
-    * [italic](https://github.com/Lokaltog/powerline-fonts/raw/master/Menlo/Menlo%20Italic%20for%20Powerline.ttf)
-    * [bold italic](https://github.com/Lokaltog/powerline-fonts/raw/master/Menlo/Menlo%20Bold%20Italic%20for%20Powerline.ttf)
+  * Install [Meslo for powerline fonts](https://github.com/Lokaltog/powerline-fonts/tree/master/Meslo) - set it to 15pt
   * change iterm2 theme to pastel dark
   * `curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh`
 * `source /opt/boxen/env.sh`
