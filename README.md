@@ -45,6 +45,7 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
 
 * Install oh-my-zsh
   * Install [Meslo for powerline fonts](https://github.com/Lokaltog/powerline-fonts/tree/master/Meslo) - set it to 15pt
+  * Use Meslo LG M DZ Regular
   * change iterm2 theme to pastel dark
   * `curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh`
 * `source /opt/boxen/env.sh`
