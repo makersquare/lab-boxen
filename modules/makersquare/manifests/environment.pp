@@ -39,6 +39,8 @@ class makersquare::environment {
   include imagemagick
   include xquartz
 
+  include virtualbox
+
   package {
     [
       'wget',
