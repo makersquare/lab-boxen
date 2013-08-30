@@ -242,3 +242,8 @@ eLtwL7CYKzIYCcZFG!XCqR52SjJD73
 **After all machines upgraded:**
 
 * Move the backup SublimeText settings into place.
+
+### 8/30/13
+
+* Ensure latest Ruby 2 is set as global version
+* Run app store upgrades
