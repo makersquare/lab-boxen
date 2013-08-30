@@ -242,3 +242,7 @@ eLtwL7CYKzIYCcZFG!XCqR52SjJD73
 **After all machines upgraded:**
 
 * Move the backup SublimeText settings into place.
+
+### 8/30/13
+
+* `rm -rf /opt/boxen/repo/vendor/puppet/cache`
