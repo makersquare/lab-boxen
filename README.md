@@ -252,3 +252,4 @@ eLtwL7CYKzIYCcZFG!XCqR52SjJD73
 * Update Xcode
 * Switch Terminal font to 15pt Meslo LG S For Powerline
 * reset .zshrc theme to agnoster (until we figure out how to switch it in dotfiles)
+* Update iTerm2
