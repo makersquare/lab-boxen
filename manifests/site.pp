@@ -63,7 +63,7 @@ node default {
   include makersquare::environment
 
   # default ruby versions
-  include ruby::2_0_0
+  include ruby::2_0_0_p247
 
   # common, useful packages
   package {
