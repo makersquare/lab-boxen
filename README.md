@@ -46,7 +46,7 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
 
 * Install oh-my-zsh
   * Install [Meslo for powerline fonts](https://github.com/Lokaltog/powerline-fonts/tree/master/Meslo) - set it to 15pt
-  * Use Meslo LG M DZ Regular
+  * Use Meslo LG S For Powerline
   * change iterm2 theme to pastel dark
   * `curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh`
 * `source /opt/boxen/env.sh`
@@ -250,3 +250,4 @@ eLtwL7CYKzIYCcZFG!XCqR52SjJD73
 * Run app store upgrades
 * `xcodebuild -license`
 * Update Xcode
+* Switch Terminal font to 15pt Meslo LG S For Powerline
