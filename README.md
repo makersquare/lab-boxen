@@ -17,6 +17,7 @@ After boxen finishes doing its sweet, sweet thing, run through the post-boxen se
 * Install any system updates (don't need iMovie, etc. updates)
 * Install XCode
   * Install command-line tools
+  * `xcodebuild -license`
 * Visit [the web interface](http://makersquare-lab-boxen.herokuapp.com) for the correct command to run in terminal
 
 ### Post boxen manual set-up
@@ -247,3 +248,4 @@ eLtwL7CYKzIYCcZFG!XCqR52SjJD73
 
 * Ensure latest Ruby 2 is set as global version
 * Run app store upgrades
+* `xcodebuild -license`
