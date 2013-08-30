@@ -249,3 +249,4 @@ eLtwL7CYKzIYCcZFG!XCqR52SjJD73
 * Ensure latest Ruby 2 is set as global version
 * Run app store upgrades
 * `xcodebuild -license`
+* Update Xcode
