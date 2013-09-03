@@ -266,3 +266,4 @@ eLtwL7CYKzIYCcZFG!XCqR52SjJD73
 
 * update rails bin to 4
 * update Rails docs in Dash to 4
+* UNPAUSE THE DROPBOX SYNCING IN THE LAB (use caffeine to keep it alive, then quit caffeine)
