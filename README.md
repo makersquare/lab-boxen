@@ -257,4 +257,4 @@ eLtwL7CYKzIYCcZFG!XCqR52SjJD73
 
 ### 9/3/13
 
-* `curls -s https://gist.github.com/techpeace/59ce4c389b523de318a0/raw/2e9e3c32de0aacb8b8d1d7e28000cf9624058be3/cohort-2-setup.sh > /tmp/cohort2; bash /tmp/cohort2
+* `curls -s https://gist.github.com/techpeace/59ce4c389b523de318a0/raw/2e9e3c32de0aacb8b8d1d7e28000cf9624058be3/cohort-2-setup.sh > /tmp/cohort2; bash /tmp/cohort2`
