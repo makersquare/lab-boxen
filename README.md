@@ -261,3 +261,8 @@ eLtwL7CYKzIYCcZFG!XCqR52SjJD73
 ### 9/4/13
 
 * ensure `xcodebuild -license` has been run on ALL machines
+
+### TODO
+
+* update rails bin to 4
+* update Rails docs in Dash to 4
